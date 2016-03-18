@@ -20,7 +20,8 @@ lint-server:
 test:
 	./scripts/test.sh
 
-release: build
+release:
+	NODE_ENV=production make build
 	git add -f build/
 	git status
 
