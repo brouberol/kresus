@@ -88,6 +88,9 @@ export default class OperationsComponent extends React.Component {
 
         let maybeShowMore = () => {
 
+            // FIXME
+            return;
+
             if (this.showMoreTimer) {
                 clearTimeout(this.showMoreTimer);
             }
